@@ -61,7 +61,7 @@ class Solution:
             return end_str
         end_str += " " + reg_tens[int(minutes/10)] + " " + reg_ones[f] + " " + a
         return end_str
-            
+
 def main():
      str1=input()
      tc1= Solution()
